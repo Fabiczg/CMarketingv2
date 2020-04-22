@@ -225,7 +225,7 @@ section{
 .main-about__item img{
 	width: 100%;
     height: 100%;
-    box-shadow: 0px 8px 14px #00000096;
+    box-shadow: 0px 7px 14px #00000096;
 }
 
 .title-general h3{
@@ -468,4 +468,25 @@ section{
 .main-footer__items ul{
 	display: flex!important;
     flex-direction: initial!important;
+}
+
+footer{
+	background: #2d333a;
+	padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.main-footer__items p a{
+	color: #f18436;
+}
+
+.main-footer__items{
+	font-family: "segoeui";
+	display: flex;
+    align-items: center;
+}
+.main-footer__items p{
+	margin: 0;
 }
