@@ -4,7 +4,7 @@
     top: 74px;
     bottom: 0;
     left: 100%;
-    width: 90%;
+    width: 100%;
     padding-right: 1rem;
     padding-left: 1rem;
     overflow-y: auto;
@@ -16,7 +16,7 @@
   }
 
   .offcanvas-collapse.open {
-    left: 17px;
+    left: 0px;
     visibility: visible;
   }
 }
@@ -44,6 +44,72 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .main-team {
+
+    grid-template-columns: 1fr ;
+
+  }
+  
+  .main-banner__text h1 {
+    
+    font-size: 5rem;
+}
+  .main-banner__text img {
+   
+    height: 150px;
+   
+}
+  .main-footer__items-new {
+  
+    margin: 12px;
+}
+  .redes {
+  
+    justify-content: center;
+}
+  .main-footer__items-pres ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+  .main-footer {
+  
+    grid-template-columns: 1fr;
+}
+  .main-contact {
+ 
+    background-size: cover;
+    padding: 63px;
+}
+  .main-blog__grid {
+ 
+    grid-template-columns: 1fr;
+
+}
+  .hj {
+    
+    box-shadow: none!important;
+   
+}
+  .title-general h3 {
+
+    font-size: 2rem;
+}
+  .card-servicio__grid {
+    grid-template-columns: 1fr;
+}
+  .main-seervice__content .slick-next {
+    left: 30%;
+    top: 120%;
+}
+.main-seervice__content .slick-prev {
+  right: 40%;
+}
+  .main-about--grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
   .m-100 {
     margin-top: 0px;
 }
@@ -90,9 +156,7 @@
   display: initial!important;
 
 }
-  .navbar-nav .nav-link {
-    color: #bf2176;
-  }
+ 
   section {
     padding: 10px 0 10px;
   }
@@ -143,11 +207,7 @@
     padding-left: 12px;
     width: 100%;
   }
-  .main-banner__text h1 {
-    font-weight: bold;
-    margin-bottom: 3rem;
-    font-size: 2rem;
-  }
+
   .btn-content {
     display: inline-grid;
   }
@@ -167,4 +227,23 @@
   .navbar-brand img {
     width: 50%;
   }
+  .main-page__about {
+
+    grid-template-columns: 1fr;
+
+}
+.main-page__banner--contact {
+ 
+  background-size: cover;
+ 
+}
+.main-footer__form {
+  margin-top: 0;
+}
+.main-page__about--blog {
+  display: grid;
+  grid-template-columns: 100%;
+
+}
+
 }
