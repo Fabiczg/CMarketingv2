@@ -37,6 +37,7 @@ $('.main-banner__content').slick({
 $('.main-seervice__content').slick({
   infinite: true,
   slidesToShow: 4,
+  autoplay:true,
   slidesToScroll: 1,
   dots: false,
   arrows: true,
@@ -72,8 +73,9 @@ $('.main-testimonios__content').slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 2,
-  dots: false,
+  dots: true,
   arrows: false,
+  autoplay:true,
   responsive: [{
       breakpoint: 1200,
       settings: {
@@ -108,6 +110,7 @@ $('.main-marcas__content').slick({
   slidesToScroll: 2,
   dots: false,
   arrows: false,
+  autoplay:true,
   responsive: [{
       breakpoint: 1200,
       settings: {

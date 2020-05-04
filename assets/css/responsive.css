@@ -44,8 +44,82 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
-  .main-team {
+  .main-about__content-eco {
+    width: 230px;
+  
+}
+  .main-about__content-buss {
+    width: 250px;
 
+}
+  .main-contact h3 {
+   
+    font-size: 2rem;
+ 
+}
+  .main-about__text-grid span {
+  
+    font-size: 2rem;
+ 
+}
+  .main-about__content-phone {
+
+    position: initial;
+  
+}
+  .main-about__content--img {
+  
+    height: 130vh;
+}
+  .phone {
+    width: 200px!important;
+    position: initial;
+ 
+}
+  .main-page__banner {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+ 
+}
+  .main-page-bg-img {
+  
+    height: 140vh;
+   
+}
+
+  .main-about__text-grid {
+  
+    grid-template-columns: 100%;
+ 
+}
+  .main-about__content {
+
+    grid-template-columns: 1fr;
+}
+  .main-about__content--img {
+   
+    padding: 15px;
+}
+  .main-marcas__content__items img {
+    width: 50%;
+    height: 50%;
+}
+  .main-metodo__text:nth-child(1),.main-metodo__text:nth-child(2), .main-metodo__text:nth-child(3), .main-metodo__text:nth-child(4) {
+    /* transform: translateY(-110px); */
+    transform: initial;
+    margin-bottom: 50px;
+}
+  .metodologia-img{
+    display: none;
+  }
+  .main-metodo__grid {
+    
+      grid-template-columns: 1fr;
+      position: initial;
+  }
+  .main-team {
+    text-align: center;
     grid-template-columns: 1fr ;
 
   }
